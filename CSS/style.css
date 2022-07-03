@@ -1,0 +1,134 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  display: block;
+  background-color: rgb(216, 247, 247);
+  margin: 0 15px;
+  padding: 10px;
+  height: 400px;
+}
+.header .banner {
+  margin: 0px 15px;
+  padding: 0px;
+  height: 355px;
+}
+.header .banner img {
+  width: 100%;
+  height: 100%;
+}
+.header .intro {
+  margin: 10px 15px;
+  padding: auto;
+  background-color: rgb(114, 101, 128);
+  height: 35px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+.master-div {
+  display: inline-block;
+  background-color: rgb(216, 247, 247);
+  padding: 20px;
+  margin: 0px 15px;
+  /* height: 100vmax; */
+  /* float: left; */
+}
+.master-div .child-div1,
+.child-div2,
+.child-div3 {
+  margin: 7px;
+  padding: 9px;
+  float: left;
+  width: 450px;
+  text-align: justify;
+  line-height: 25px;
+  height: 600px;
+}
+
+.master-div .child-div1 {
+  background-color: lightgray;
+  display: block;
+}
+.master-div .child-div2 {
+  background-color: gray;
+  display: block;
+}
+.master-div .child-div3 {
+  background-color: rgb(179, 166, 166);
+  display: block;
+}
+.master-div .child-div1 img {
+  height: 200px;
+  width: 100%;
+}
+.master-div .child-div2 img {
+  height: 200px;
+  width: 100%;
+}
+.master-div .child-div3 img {
+  height: 200px;
+  width: 100%;
+}
+.master-div .content-1 {
+  display: inline-block;
+  background-color: rgb(121, 172, 213);
+  margin: 10px;
+  text-align: justify;
+  line-height: 25px;
+  padding-right: 10px;
+}
+.master-div .content-1 img {
+  margin-right: 15px;
+  padding: 0;
+  float: left;
+  height: 300px;
+  width: 400px;
+}
+.master-div .content-2 {
+  display: inline-block;
+  background-color: rgb(147, 206, 255);
+  margin: 10px;
+  text-align: justify;
+  line-height: 25px;
+  padding-right: 10px;
+}
+.master-div .content-2 img {
+  margin-right: 15px;
+  padding: 0;
+  float: left;
+  height: 300px;
+  width: 400px;
+}
+.master-div .content-3 {
+  display: inline-block;
+  background-color: rgb(110, 236, 135);
+  margin: 10px;
+  text-align: justify;
+  line-height: 25px;
+  padding-right: 10px;
+}
+.master-div .content-3 img {
+  margin-right: 15px;
+  padding: 0;
+  float: left;
+  height: 300px;
+  width: 400px;
+}
+/* .master-div .content-1 h2 {
+  float: left;
+  padding: 10px;
+}
+.master-div .content-1 p {
+  float: right;
+  padding: 10px;
+} */
+.master-div .footer {
+  background-color: aqua;
+  margin: 0 8px;
+  padding: 7px;
+  height: 30px;
+  font-size: 25px;
+  text-align: center;
+}
